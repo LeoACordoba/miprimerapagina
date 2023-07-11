@@ -44,3 +44,12 @@ button{
     width:70px;
     background-color:floralwhite;
      }
+     body{
+        background-color: aliceblue;
+     }
+    img{
+        border-inline-color: red;
+    }
+    main{
+        align-content: center;
+    }
