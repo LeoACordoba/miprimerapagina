@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+nav{
+    margin: 0px;
+    list-style:square;
+}
+li{
+    display: inline;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+}
+a:hover{ color: skyblue;
+
+}
+@media (max-width: 767px) {
+    header {
+        background-color: black;
+    }
+    h1{
+        width: auto;
+    }
+    body{
+        font-size: medium
+    };
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+footer{
+    height: 200px;
+    display: grid;
+    place-items: center
+    ;
+}
+button{
+    height:30px;
+    width:70px;
+    background-color:floralwhite;
+     }
